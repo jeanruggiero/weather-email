@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Newsletter Signup</h2>
+
+<form method="POST">
+    {% csrf_token %}
+    <label for="email">Email:</label><br>
+    <input id="email" name="email" type="text">
+    <input type="submit" value="Subscribe">
+
+</form>
+
+{% endblock %}

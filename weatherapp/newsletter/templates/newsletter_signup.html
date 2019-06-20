@@ -1,6 +1,40 @@
 {% extends "base.html" %}
 
+{% block style %}
+
+.alert {
+    padding: 20px;
+    background-color: Green;
+    color: white;
+    margin-bottom: 15 px;
+}
+
+.close-button {
+    margin-left: 15px;
+    color: white;
+    font-weeight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close-button:hover {
+    color: gray;
+}
+
+{% endblock %}
+
+
 {% block content %}
+
+{% if success %}
+    <div class="alert">
+        <span><b>Success!</b> You have successfully subscribed.</span>
+        <span class="close-button" onclick="this.parentElement.style.display='none';">&times;</span>
+    </div>
+{% endif %}
 
 <h2>Newsletter Signup</h2>
 

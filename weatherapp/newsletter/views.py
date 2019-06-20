@@ -4,15 +4,13 @@ from .models import Subscriber, Location
 
 
 def newsletter_signup(request):
+    locations = Location.objects.order_by('city')
     if request.method == 'GET':
-        locations = Location.objects.order_by('city')
-        return render(request, 'newsletter_signup.html', {'locations': locations})
+        return render(request, 'newsletter_signup.html', {'locations': locations, 'success': False})
     if request.method == 'POST':
         try:
             Subscriber.objects.get(email=request.POST['email'])
-
-            success_ = False
-            return HttpResponseRedirect(reverse(failure))
+            #return HttpResponseRedirect(reverse(failure))
 
         except Subscriber.DoesNotExist:
             city = request.POST['location'].split(',')[0].strip()
@@ -24,9 +22,8 @@ def newsletter_signup(request):
                 location=location
             )
             subscriber.save()
-            success_ = True
 
-            return HttpResponseRedirect(reverse(success))
+            return render(request, 'newsletter_signup.html', {'locations': locations, 'success': True})
 
 def success(request):
     return render(request, 'success.html')

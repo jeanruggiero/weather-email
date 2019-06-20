@@ -15,6 +15,7 @@ def newsletter_signup(request):
         except Subscriber.DoesNotExist:
             subscriber = Subscriber(
                 email=request.POST['email'],
+                location=request.POST['location']
             )
             subscriber.save()
             success_ = True

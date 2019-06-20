@@ -7,7 +7,11 @@
 <form method="POST">
     {% csrf_token %}
     <label for="email">Email:</label><br>
-    <input id="email" name="email" type="text">
+    <input id="email" name="email" type="text"><br><br>
+
+    <label for="location">Location:</label><br>
+    <input id="location" name="location" type="text"><br><br>
+
     <input type="submit" value="Subscribe">
 
 </form>

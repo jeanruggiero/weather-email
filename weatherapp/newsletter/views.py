@@ -7,10 +7,25 @@ def newsletter_signup(request):
     if request.method == 'GET':
         return render(request, 'newsletter_signup.html')
     if request.method == 'POST':
-        subscriber = Subscriber(
-            email=request.POST['email'],
-        )
-        subscriber.save()
-        return HttpResponseRedirect(reverse(newsletter_signup))
+        try:
+            Subscriber.objects.get(email=request.POST['email'])
+            success_ = False
+            return HttpResponseRedirect(reverse(failure))
+
+        except Subscriber.DoesNotExist:
+            subscriber = Subscriber(
+                email=request.POST['email'],
+            )
+            subscriber.save()
+            success_ = True
+
+            return HttpResponseRedirect(reverse(success))
+
+def success(request):
+    return render(request, 'success.html')
+
+
+def failure(request):
+    return render(request, 'failure.html')
 
 

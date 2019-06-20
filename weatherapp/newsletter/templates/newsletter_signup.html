@@ -10,7 +10,14 @@
     <input id="email" name="email" type="text"><br><br>
 
     <label for="location">Location:</label><br>
-    <input id="location" name="location" type="text"><br><br>
+
+    <input type="text" list="locations" id="location" name="location"><br><br>
+
+    <datalist id="locations">
+        {% for location in locations %}
+        <option value="{{ location.city }}, {{ location.state }}"></option>
+        {% endfor %}
+    </datalist>
 
     <input type="submit" value="Subscribe">
 

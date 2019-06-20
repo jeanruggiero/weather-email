@@ -1,0 +1,801 @@
+[{
+        "model": "newsletter.location",
+        "pk": 1,
+        "fields": {
+            "city": "New York",
+            "state": "New York"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 2,
+        "fields": {
+            "city": "Los Angeles",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 3,
+        "fields": {
+            "city": "Chicago",
+            "state": "Illinois"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 4,
+        "fields": {
+            "city": "Houston",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 5,
+        "fields": {
+            "city": "Philadelphia",
+            "state": "Pennsylvania"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 6,
+        "fields": {
+            "city": "Phoenix",
+            "state": "Arizona"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 7,
+        "fields": {
+            "city": "San Antonio",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 8,
+        "fields": {
+            "city": "San Diego",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 9,
+        "fields": {
+            "city": "Dallas",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 10,
+        "fields": {
+            "city": "San Jose",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 11,
+        "fields": {
+            "city": "Austin",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 12,
+        "fields": {
+            "city": "Indianapolis",
+            "state": "Indiana"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 13,
+        "fields": {
+            "city": "Jacksonville",
+            "state": "Florida"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 14,
+        "fields": {
+            "city": "San Francisco",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 15,
+        "fields": {
+            "city": "Columbus",
+            "state": "Ohio"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 16,
+        "fields": {
+            "city": "Charlotte",
+            "state": "North Carolina"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 17,
+        "fields": {
+            "city": "Fort Worth",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 18,
+        "fields": {
+            "city": "Detroit",
+            "state": "Michigan"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 19,
+        "fields": {
+            "city": "El Paso",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 20,
+        "fields": {
+            "city": "Memphis",
+            "state": "Tennessee"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 21,
+        "fields": {
+            "city": "Seattle",
+            "state": "Washington"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 22,
+        "fields": {
+            "city": "Denver",
+            "state": "Colorado"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 23,
+        "fields": {
+            "city": "Washington",
+            "state": "District of Columbia"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 24,
+        "fields": {
+            "city": "Boston",
+            "state": "Massachusetts"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 25,
+        "fields": {
+            "city": "Nashville",
+            "state": "Tennessee"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 26,
+        "fields": {
+            "city": "Baltimore",
+            "state": "Maryland"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 27,
+        "fields": {
+            "city": "Oklahoma City",
+            "state": "Oklahoma"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 28,
+        "fields": {
+            "city": "Louisville",
+            "state": "Kentucky"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 29,
+        "fields": {
+            "city": "Portland",
+            "state": "Oregon"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 30,
+        "fields": {
+            "city": "Las Vegas",
+            "state": "Nevada"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 31,
+        "fields": {
+            "city": "Milwaukee",
+            "state": "Wisconsin"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 32,
+        "fields": {
+            "city": "Albuquerque",
+            "state": "New Mexico"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 33,
+        "fields": {
+            "city": "Tucson",
+            "state": "Arizona"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 34,
+        "fields": {
+            "city": "Fresno",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 35,
+        "fields": {
+            "city": "Sacramento",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 36,
+        "fields": {
+            "city": "Long Beach",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 37,
+        "fields": {
+            "city": "Kansas City",
+            "state": "Missouri"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 38,
+        "fields": {
+            "city": "Mesa",
+            "state": "Arizona"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 39,
+        "fields": {
+            "city": "Virginia Beach",
+            "state": "Virginia"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 40,
+        "fields": {
+            "city": "Atlanta",
+            "state": "Georgia"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 41,
+        "fields": {
+            "city": "Colorado Springs",
+            "state": "Colorado"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 42,
+        "fields": {
+            "city": "Omaha",
+            "state": "Nebraska"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 43,
+        "fields": {
+            "city": "Raleigh",
+            "state": "North Carolina"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 44,
+        "fields": {
+            "city": "Miami",
+            "state": "Florida"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 45,
+        "fields": {
+            "city": "Oakland",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 46,
+        "fields": {
+            "city": "Minneapolis",
+            "state": "Minnesota"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 47,
+        "fields": {
+            "city": "Tulsa",
+            "state": "Oklahoma"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 48,
+        "fields": {
+            "city": "Cleveland",
+            "state": "Ohio"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 49,
+        "fields": {
+            "city": "Wichita",
+            "state": "Kansas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 50,
+        "fields": {
+            "city": "Arlington",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 51,
+        "fields": {
+            "city": "New Orleans",
+            "state": "Louisiana"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 52,
+        "fields": {
+            "city": "Bakersfield",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 53,
+        "fields": {
+            "city": "Tampa",
+            "state": "Florida"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 54,
+        "fields": {
+            "city": "Honolulu",
+            "state": "Hawaii"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 55,
+        "fields": {
+            "city": "Aurora",
+            "state": "Colorado"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 56,
+        "fields": {
+            "city": "Anaheim",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 57,
+        "fields": {
+            "city": "Santa Ana",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 58,
+        "fields": {
+            "city": "St. Louis",
+            "state": "Missouri"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 59,
+        "fields": {
+            "city": "Riverside",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 60,
+        "fields": {
+            "city": "Corpus Christi",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 61,
+        "fields": {
+            "city": "Lexington-Fayette",
+            "state": "Kentucky"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 62,
+        "fields": {
+            "city": "Pittsburgh",
+            "state": "Pennsylvania"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 63,
+        "fields": {
+            "city": "Anchorage",
+            "state": "Alaska"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 64,
+        "fields": {
+            "city": "Stockton",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 65,
+        "fields": {
+            "city": "Cincinnati",
+            "state": "Ohio"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 66,
+        "fields": {
+            "city": "St. Paul",
+            "state": "Minnesota"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 67,
+        "fields": {
+            "city": "Toledo",
+            "state": "Ohio"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 68,
+        "fields": {
+            "city": "Greensboro",
+            "state": "North Carolina"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 69,
+        "fields": {
+            "city": "Newark",
+            "state": "New Jersey"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 70,
+        "fields": {
+            "city": "Plano",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 71,
+        "fields": {
+            "city": "Henderson",
+            "state": "Nevada"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 72,
+        "fields": {
+            "city": "Lincoln",
+            "state": "Nebraska"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 73,
+        "fields": {
+            "city": "Buffalo",
+            "state": "New York"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 74,
+        "fields": {
+            "city": "Jersey City",
+            "state": "New Jersey"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 75,
+        "fields": {
+            "city": "Chula Vista",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 76,
+        "fields": {
+            "city": "Fort Wayne",
+            "state": "Indiana"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 77,
+        "fields": {
+            "city": "Orlando",
+            "state": "Florida"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 78,
+        "fields": {
+            "city": "St. Petersburg",
+            "state": "Florida"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 79,
+        "fields": {
+            "city": "Chandler",
+            "state": "Arizona"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 80,
+        "fields": {
+            "city": "Laredo",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 81,
+        "fields": {
+            "city": "Norfolk",
+            "state": "Virginia"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 82,
+        "fields": {
+            "city": "Durham",
+            "state": "North Carolina"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 83,
+        "fields": {
+            "city": "Madison",
+            "state": "Wisconsin"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 84,
+        "fields": {
+            "city": "Lubbock",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 85,
+        "fields": {
+            "city": "Irvine",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 86,
+        "fields": {
+            "city": "Winston-Salem",
+            "state": "North Carolina"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 87,
+        "fields": {
+            "city": "Glendale",
+            "state": "Arizona"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 88,
+        "fields": {
+            "city": "Garland",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 89,
+        "fields": {
+            "city": "Hialeah",
+            "state": "Florida"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 90,
+        "fields": {
+            "city": "Reno",
+            "state": "Nevada"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 91,
+        "fields": {
+            "city": "Chesapeake",
+            "state": "Virginia"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 92,
+        "fields": {
+            "city": "Gilbert",
+            "state": "Arizona"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 93,
+        "fields": {
+            "city": "Baton Rouge",
+            "state": "Louisiana"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 94,
+        "fields": {
+            "city": "Irving",
+            "state": "Texas"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 95,
+        "fields": {
+            "city": "Scottsdale",
+            "state": "Arizona"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 96,
+        "fields": {
+            "city": "North Las Vegas",
+            "state": "Nevada"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 97,
+        "fields": {
+            "city": "Fremont",
+            "state": "California"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 98,
+        "fields": {
+            "city": "Boise City",
+            "state": "Idaho"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 99,
+        "fields": {
+            "city": "Richmond",
+            "state": "Virginia"
+        }
+        },
+{
+        "model": "newsletter.location",
+        "pk": 100,
+        "fields": {
+            "city": "San Bernardino",
+            "state": "California"
+        }
+        }
+]

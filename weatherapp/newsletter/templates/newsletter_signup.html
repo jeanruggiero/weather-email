@@ -7,11 +7,11 @@
 <form method="POST">
     {% csrf_token %}
     <label for="email">Email:</label><br>
-    <input id="email" name="email" type="text"><br><br>
+    <input id="email" name="email" type="text" required><br><br>
 
     <label for="location">Location:</label><br>
 
-    <input type="text" list="locations" id="location" name="location"><br><br>
+    <input type="text" list="locations" id="location" name="location" required><br><br>
 
     <datalist id="locations">
         {% for location in locations %}

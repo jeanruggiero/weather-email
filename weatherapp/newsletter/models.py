@@ -4,6 +4,8 @@ from django.db import models
 class Location(models.Model):
     city = models.CharField(max_length=128)
     state = models.CharField(max_length=128)
+    latitude = models.FloatField()
+    longitude = models.FloatField()
 
     def __repr__(self):
         return self.city + ', ' + self.state

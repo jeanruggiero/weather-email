@@ -12,7 +12,9 @@ with open('locations.json', 'w') as f:
         "pk": {i},
         "fields": {{
             "city": "{record['fields']['city']}",
-            "state": "{record['fields']['state']}"
+            "state": "{record['fields']['state']}",
+            "latitude": {record['fields']['coordinates'][0]},
+            "longitude": {record['fields']['coordinates'][1]}
         }}
         }},\n''')
         i = i + 1

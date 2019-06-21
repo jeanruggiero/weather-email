@@ -10,7 +10,6 @@ def newsletter_signup(request):
     if request.method == 'POST':
         try:
             Subscriber.objects.get(email=request.POST['email'])
-            #return HttpResponseRedirect(reverse(failure))
 
         except Subscriber.DoesNotExist:
             city = request.POST['location'].split(',')[0].strip()
@@ -24,6 +23,7 @@ def newsletter_signup(request):
             subscriber.save()
 
             return render(request, 'newsletter_signup.html', {'locations': locations, 'success': True})
+
 
 def success(request):
     return render(request, 'success.html')

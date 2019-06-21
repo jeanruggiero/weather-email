@@ -9,10 +9,18 @@
     margin-bottom: 15 px;
 }
 
+.success {
+    background-color: #4CAF50;
+}
+
+.failure {
+    background-color: #f44336;
+}
+
 .close-button {
     margin-left: 15px;
     color: white;
-    font-weeight: bold;
+    font-weight: bold;
     float: right;
     font-size: 22px;
     line-height: 20px;
@@ -24,37 +32,65 @@
     color: gray;
 }
 
+.column {
+    float: left;
+    height: 500px;
+}
+
+.left, .right {
+    width: 30%;
+}
+
+.center {
+    width: 40%
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 {% endblock %}
 
 
 {% block content %}
 
-{% if success %}
-    <div class="alert">
+{% if status == 'success' %}
+    <div class="alert success">
         <span><b>Success!</b> You have successfully subscribed.</span>
+        <span class="close-button" onclick="this.parentElement.style.display='none';">&times;</span>
+    </div>
+{% elif status == 'failure' %}
+    <div class="alert failure">
+        <span><b>Subscription unsuccessful.</b> You are already subscribed.</span>
         <span class="close-button" onclick="this.parentElement.style.display='none';">&times;</span>
     </div>
 {% endif %}
 
-<h2>Newsletter Signup</h2>
+<div class="row">
+    <div class="column left"></div>
 
-<form method="POST">
-    {% csrf_token %}
-    <label for="email">Email:</label><br>
-    <input id="email" name="email" type="text" required><br><br>
+    <div class="column center">
+        <h2>Newsletter Signup</h2>
+        <form method="POST">
+            {% csrf_token %}
+            <label for="email">Email:</label><br>
+            <input id="email" name="email" type="text" required><br><br>
 
-    <label for="location">Location:</label><br>
+            <label for="location">Location:</label><br>
+            <input type="text" list="locations" id="location" name="location" required><br><br>
+            <datalist id="locations">
+                {% for location in locations %}
+                <option value="{{ location.city }}, {{ location.state }}"></option>
+                {% endfor %}
+            </datalist>
 
-    <input type="text" list="locations" id="location" name="location" required><br><br>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
 
-    <datalist id="locations">
-        {% for location in locations %}
-        <option value="{{ location.city }}, {{ location.state }}"></option>
-        {% endfor %}
-    </datalist>
-
-    <input type="submit" value="Subscribe">
-
-</form>
+    <div class="column right"></div>
+</div>
 
 {% endblock %}
